@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+
+}
+.header{
+    height: 500px;
+    background-image: url(./Vector.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.button a{
+    background: linear-gradient(215.31deg, #F9F0C3 9.73%, #EFBB03 71.72%);
+    padding: 15px 60px;
+    border-radius: 100px;
+    
+
+}
+.block1{
+    position: absolute;
+    right: 169px;
+    display: flex;
+}
+.text{
+    padding-top: 350px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    color: #31456A;
+
+}
+.block2{
+    right: 200px;
+    display: flex;
+    padding: 100px;
+    padding-right: 400px;
+}
+.h2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #31456A;
+    padding: 24px;
+   
+}
+.p1{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #31456A;
+    padding-left: 16px;
+    align-items: center;
+}
+.p2{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #31456A;
+    padding: 33px;
+    align-items: center;
+}
+.h1{
+    font-weight: 500;
+    font-size: 35px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    color: #31456A;
+    padding-left: 700px;
+}
+th{
+    padding-left: 97px;
+    padding-right: 97px;
+    font-size: 16px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    color: #31456A;
+}
+td{
+    font-weight: 300px;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #8CA2B7;
+    line-height: 30px;
+}
+@media(min-width:413px){
+    .header {
+        height: 500px;
+        background-image: url(./Vector.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 26px;
+        font-size: 13px;
+    }
+    
+    .button a {
+        background: linear-gradient(215.31deg, #F9F0C3 9.73%, #EFBB03 71.72%);
+        border-radius: 100px;
+        padding: 5px 10px;
+    }
+}
+
+
+.steps .left{
+     
+      background-image:url(./Group\ 3980.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 50%;
+}
+.steps{
+     display: flex;
+}
+.box{
+    display: flex;
+    width: 300px;
+
+}
+.box p{
+    padding-top: 30px;
+}
+.steps .button{
+    padding-top: 50px;
+}
+.block4{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.box1{
+    margin-right: 146px;
+    max-width: 200px;
+}
+.advantages2{
+    padding-left: 650px;
+}
+.reviews{
+    display: flex;
+    padding: 100px;
+}
+.reviews1{
+    width: 137px;
+    height: 46px;
+    left: 825px;
+    top: 3580px;
+}
+.box2 p{
+    margin-top: 50px;
+    width: 427px;
+    height: 127.94px;
+    left: 825px;
+    top: 3783.06px;
+   
+
+}
